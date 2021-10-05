@@ -126,7 +126,7 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "UltraWares Ui to Py Converter"))
+        Form.setWindowTitle(_translate("Form", "Ui to Py Converter"))
         self.UiFileText.setText(_translate("Form", "Ui File:"))
         self.SelectButton.setText(_translate("Form", "Select Ui File type"))
         self.ConvertButton.setText(_translate("Form", "Convert To Py"))
